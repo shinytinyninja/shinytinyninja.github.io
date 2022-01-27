@@ -3,9 +3,9 @@ body {
 	padding: 0;
 	color: #868684;
 	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 1.4em; 
-	background-color: #CAB8FF;
+	background-color: #CCCCC4;
 	background-image: url(images/tooplate_body_top.jpg);
 	background-repeat: repeat-x;
 	background-position: top
@@ -72,7 +72,6 @@ em { color: #000 }
 #tooplate_body_wrapper {
 	width: 100%;
 	padding-bottom: 0px;
-/*    background: #CAB8FF;*/
     background: #CCCCC4;
 }
 
@@ -85,6 +84,7 @@ em { color: #000 }
 	padding: 10px;
 }
 
+/*
 #search_box { clear: both; float: right; margin: 0; }
 
 #search_box form { 
@@ -102,6 +102,7 @@ em { color: #000 }
 	margin-right: 7px; font-size: 12px; color: #8b898a; line-height: 30px; background: none; border: none; } 
 
 #searchbutton { height: 25px; width: 60px; padding: 0; margin: 0; cursor: pointer; background: none; border: none; }
+*/
 
 #tooplate_header {
 	clear: both;
@@ -112,7 +113,7 @@ em { color: #000 }
 
 #tooplate_buffer {
     height: 15px;
-    background: CAB8FF;
+    background: #CCCCC4;
 }
 
 #site_title { float: left; margin: 2px 0 0 15px; }
@@ -133,7 +134,7 @@ em { color: #000 }
 	clear: both;
 	float: right;
 	display: inline-block;
-    padding-top: 70
+    padding-top: 60
 }
 
 #tooplate_menu ul {
@@ -172,9 +173,11 @@ em { color: #000 }
 /* end of menu */
 
 #tooplate_main_bottom { width: 960px; height: 10px; background: url(images/tooplate_main_bottom.png) no-repeat }
+
 #tooplate_main {
 	clear: both;
 	width: 920px;
+/*    width: 90%;*/
 	padding: 30px 20px 0;
 	background: url(images/tooplate_main.jpg) repeat-y
 }
@@ -319,4 +322,9 @@ a.follow_us { color: #30aede }
     height: 33px;
     width: 80px;
     font-size: 40px;
+}
+
+#img_box {
+    width: 220px;
+    height: auto;
 }
