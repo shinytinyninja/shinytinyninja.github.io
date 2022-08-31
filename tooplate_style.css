@@ -45,11 +45,11 @@ a.more:hover { color: #000 }
 
 .imger_box { margin-bottom: 15px }
 
-.image_wrapper { position: relative; display: inline-block; margin-bottom: 10px }
+.image_wrapper { position: relative; display: inline-block; margin-bottom: 10px; overflow: hidden; border-radius: 25px;}
 
-.image_wrapper span { position: absolute; top: 0; left: 0; width: 195px; height: 87px; background: url(images/tooplate_image_frame.png) no-repeat }
+.image_wrapper span { position: absolute; top: 0; left: 0; width: 195px; background: url(images/tooplate_image_frame.png) no-repeat }
 
-.image_wrapper img { width: 195px; height: 87px }
+.image_wrapper img { width: 195px;}
 
 .image_fl { float: left; margin: 3px 20px 5px 0 }
 
@@ -201,6 +201,7 @@ em { color: #000 }
 
 .tooplate_sidebar {
 	width: 240px;
+    
 }
 
 .col_half {
@@ -214,11 +215,17 @@ em { color: #000 }
 	margin: 0px 0px;
 }
 
+.col_large_padding {
+	width: 640px;
+	margin: 0px 0px;
+    padding-top: 15px
+}
+
 .box01 {
 	clear: both;
 	position: relative;
 	padding: 20px;
-	background: url(images/tooplate_box01.jpg) repeat-y center
+	background: url(images/tooplate_box01.jpg) repeat-y center;
 }
 
 .box01 span.top { position: absolute; top: 0; left: 0; width: 240px; height: 14px; background: url(images/tooplate_box01_top.jpg) no-repeat center }
